@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const Navber = () => {
+const Navbar = () => {
   
 
   const menuItems = [
@@ -43,6 +43,6 @@ const Navber = () => {
   );
 };
 
-export default Navber;
+export default Navbar;
 
 
