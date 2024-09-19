@@ -15,7 +15,7 @@ const TopBanner= () => {
                                     items.map(item=>(
                                         <div 
                                         key={item.color}
-                                        className={`${item.width} ${item.height} ${item.color} mx-auto items-center justify-center hover:scale-125 hover:duration-500 `}
+                                        className={`${item.width} ${item.height} ${item.color} mx-auto items-center justify-center hover:scale-125 hover:duration-500  `}
                                         >
                                         </div>
                                     ))
