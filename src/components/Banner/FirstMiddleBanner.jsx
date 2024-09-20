@@ -129,7 +129,6 @@ const FirstMiddleBanner = () => {
                   placeholder='blur'
 
                   />
-                    {/* <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="Profile" className="w-8 h-8 rounded-full"/> */}
                     <p className="ml-2">Maria jonson</p>
                 </div>
                 <div className="bottom-3 absolute border-2 border-gray-700 bg-opacity-60 bg-slate-400 rounded-md ps-3 py-2 pe-24 ms-4 mb-2" >

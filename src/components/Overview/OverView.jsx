@@ -20,16 +20,16 @@ console.log(showItems);
 
 
     return (
-<div className='relative'>
-  <div className='relative '>
+<div className='md:relative overflow-hidden '>
+  <div className='md:relative '>
                     {/* Top section */}
-        <div className='grid grid-cols-1 gap-8 mt-14 container md:grid-cols-2'>
+        <div className='md:grid md:gap-8 md:mt-14 container md:grid-cols-2 flex flex-col mb-20  md:mb-0 '>
                 {/* <!-- Left Side Text  --> */}
 
 
-            <div className="flex  my-auto justify-center ms-20 flex-col z-20">
+            <div className="flex  my-auto justify-center ms-20 flex-col z-20 md:mb-0 mb-12">
                         <div className='h-72'></div>
-                <h1 className="font-bold text-4xl mb-10">Overveiw</h1>
+                <h1 className="font-bold text-4xl mb-10 ">Overveiw</h1>
                 <p className=" text-justify text-2xl font-semibold">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
@@ -37,19 +37,19 @@ console.log(showItems);
 
                 {/* <!-- Right Side Slider --> */}
 
-            <div className="flex justify-center items-center  top-0 right-4 absolute flex-col h-full z-10">
-                <div className='flex gap-12'>
+            <div className="flex justify-center items-center  top-0 right-4 md:absolute flex-col h-full z-10 ">
+                <div className='flex gap-12 h-[300px] md:h-full'>
                 {items.slice(0,showItems).map((item) => (
                         <div
                             key={item.id}
-                            className={` ${showItems-2==item.id ? "scale-125 duration-500 " :""}   ${item.color} mx-auto items-center justify-center w-[234px] h-[304px] cursor-pointer `}
+                            className={` ${showItems-2==item.id ? "scale-125 duration-500 " :""}   ${item.color} mx-auto items-center justify-center xl:w-[234px] xl:h-[304px] lg:w-[180px] lg:h-[200px] md:w-[150px] md:h-[170px] w-[100px] h-[120px] cursor-pointer `}
                             onClick={()=>setShowItems(item.id+2)}
                     
                         ></div>
                         ))}
                 </div>
 
-                <div className='right-0 absolute -bottom-16 grid grid-cols-2  space-x-4'>
+                <div className='right-0 md:absolute -bottom-16 grid grid-cols-2  space-x-4 '>
                 {
                     showItems>=4 ?    <IoIosArrowDropleftCircle className='text-6xl ' onClick={()=>setShowItems(showItems-1)} /> : <div className=''> </div>
                     
@@ -70,9 +70,9 @@ console.log(showItems);
 
 {/* svg */}
 <div className=''>
-  {/* <svg className="absolute top-48  " xmlns="http://www.w3.org/2000/svg" width="" height="" viewBox="0 0 1440 258" fill="none">
+  <svg className="md:absolute top-0 min-h-max" xmlns="http://www.w3.org/2000/svg" width="" height="" viewBox="0 0 1440 258" fill="none">
 <path className='overflow-hidden'  d="M-1 146.299V0H1440V146.299C786.74 348.6 207.142 230.591 -1 146.299Z" fill="#6BE6A8"/>
-</svg> */}
+</svg>
   
 </div>
 
@@ -83,15 +83,15 @@ console.log(showItems);
 </div> */}
 
          {/* svg */}
-    <div className='-mt-64'>
-            <div className='min-h-[800px] bg-green-300 rounded-bl-full '></div>  
+ 
+            {/* <div className='min-h-[800px] bg-green-300 rounded-bl-full '></div>   */}
 
             {/* Last  part  */}
 
-       <div className='grid md:grid-cols-2 gap-8  mx-auto -mt-52 container grid-cols-1'>
+       <div className='grid md:grid-cols-2 gap-8  mx-auto container grid-cols-1 mt-10 '>
 
             {/* Box slider open */}
-            <div className="flex gap-7 py-5">
+            <div className="flex gap-7 py-5 z-10">
 
             <div>
             <div className={`w-[408px] h-[408px] rounded-3xl ${color} `}></div>
@@ -130,7 +130,7 @@ console.log(showItems);
             </div>
         </div>
 
-    </div>
+
 </div>
     
 
