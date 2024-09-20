@@ -67,17 +67,6 @@ const Navbar = () => {
 
 
 
-        {/* <ul className="flex md:space-x-6 text-white md:text-base font-normal text-xs">
-            {
-                menuItems.map(item=>(
-                    <Link href='/' key={item.name} className="">
-                      <li className="flex">{item.name} <select className="bg-[#363636]"></select>
-                      </li>
-                    </Link>
-                ))
-            }
-        </ul> */}
-
          {/* <!-- Search bar --> */}
        <div className="relative ">
             <input type="text" className="px-4 py-2 rounded-full bg-white" placeholder="Search" />

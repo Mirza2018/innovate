@@ -12,9 +12,8 @@ const OverView = () => {
 
     const [showItems, setShowItems] = useState(3);
     const [color,setColor]=useState('bg-[#0FA958]')
-   console.log(color);
+
    
-console.log(showItems);
 
  
 
