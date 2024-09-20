@@ -20,7 +20,7 @@ console.log(showItems);
 
 
     return (
-<div className='md:relative overflow-x-hidden place-items-center'>
+<div className='md:relative overflow-x-hidden place-items-center '>
   <div className='md:relative '>
                     {/* Top section */}
         <div className='md:grid md:gap-8 md:mt-14 container md:grid-cols-2 flex flex-col mb-20  md:mb-0 '>
@@ -82,7 +82,7 @@ console.log(showItems);
        <div className='grid md:grid-cols-2 gap-8  mx-auto container grid-cols-1 mt-10 md:mt-40 '>
 
             {/* Box slider  */}
-            <div className="flex gap-7 py-5 z-10">
+            <div className="flex gap-7 py-5 z-10 ms-10">
 
             <div>
             <div className={`md:w-[408px] md:h-[408px] w-[225px] h-[225px]  rounded-3xl ${color} `}></div>

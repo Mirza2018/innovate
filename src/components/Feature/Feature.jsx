@@ -16,7 +16,7 @@ const Feature = () => {
     return (
         <div>
             
-  <div className="container mx-auto py-16 mt-32 ">
+  <div className="container mx-auto py-16 mt-32 overflow-x-hidden">
     {/* First part */}
     <div className="grid md:grid-cols-2 grid-cols-1 ">
       {/*Left side Photo section */}
@@ -72,7 +72,7 @@ const Feature = () => {
 
       <div className="flex justify-center items-center ">
 
-      <div className="relative w-96 h-96 flex justify-center items-center cursor-pointer">
+      <div className="relative w-80 h-96 flex justify-center items-center cursor-pointer">
         {/*  Box  Indexing to top*/}
           
 
@@ -96,9 +96,9 @@ const Feature = () => {
                   />
                       <p className="ml-2">Wade Warren</p>
                 </div>
-                <div className="bottom-3 absolute border-2 border-gray-700 bg-opacity-60 bg-slate-400 rounded-md ps-3 py-2 pe-24 ms-4 mb-2" >
+                <div className="bottom-3 absolute border-2 border-gray-700 bg-opacity-60 bg-slate-400 rounded-2xl ps-3 py-2 pe-24 ms-5 mb-2" >
                       <p className="text-lg font-semibold">Lawrance Stroll</p>
-                      <p className="text-sm mt-2">Hegifueshho dhfsui foiehhsio</p>
+                      <p className="text-sm mt-1">Hegifueshho dhfsui </p>
                 </div>
            </div>
 
@@ -119,9 +119,9 @@ const Feature = () => {
                   />
                     <p className="ml-2">Maria jonson</p>
                 </div>
-                <div className="bottom-3 absolute border-2 border-gray-700 bg-opacity-60 bg-slate-400 rounded-md ps-3 py-2 pe-24 ms-4 mb-2" >
+                <div className="bottom-3 absolute border-2 border-gray-700 bg-opacity-60 bg-slate-400 rounded-2xl ps-3 py-2 pe-24 ms-5 mb-2" >
                     <p className="text-lg font-semibold">Lawrance Stroll</p>
-                    <p className="text-sm mt-2">Hegifueshho dhfsui foiehhsio</p>
+                    <p className="text-sm mt-1">Hegifueshho dhfsui </p>
                 </div>
                                     </div>
                {/* Last Box */}
@@ -142,9 +142,9 @@ const Feature = () => {
                   />
                       <p className="ml-2">Simla bafet</p>
                 </div>
-                <div className="bottom-3 absolute border-2 border-gray-700 bg-opacity-60 bg-slate-400 rounded-md ps-3 py-2 pe-24 ms-4 mb-2 " >
+                <div className="bottom-3 absolute border-2 border-gray-700 bg-opacity-60 bg-slate-400 rounded-2xl ps-3 py-2 pe-24 ms-4 mb-2 " >
                       <p className="text-lg font-semibold">Lawrance Stroll</p>
-                      <p className="text-sm mt-2">Hegifueshho dhfsui foiehhsio</p>
+                      <p className="text-sm mt-1">Hegifueshho dhfsui </p>
                 </div>
              </div>
 

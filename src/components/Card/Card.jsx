@@ -12,8 +12,8 @@ const Card = () => {
             {/* Title */}
               <h1 className='font-black text-3xl ms-6' >DISCOVER MORE</h1>
               {/* Categories Section */}
-              <div className='text-xs font-medium flex flex-row justify-between items-center text-center mx-5 mt-16'>
-                  <div className='flex gap-3 cursor-pointer'>
+              <div className='text-xs font-medium flex flex-row  justify-between items-center text-center mx-5 mt-16'>
+                  <div className='flex flex-wrap gap-3 cursor-pointer'>
                       <p className=' px-2 py-2 bg-violet-800 text-white rounded-full outline-none'>All Categories</p>
                       <p className=' px-2 py-2 bg-slate-100 rounded-full outline-none hover:bg-violet-500 hover:text-white'>Art</p>
                       <p className=' px-2 py-2 bg-slate-100 rounded-full outline-none  hover:bg-violet-500 hover:text-white'>Celebrities</p>
