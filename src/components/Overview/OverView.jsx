@@ -20,17 +20,17 @@ console.log(showItems);
 
 
     return (
-<div className='md:relative overflow-hidden '>
+<div className='md:relative overflow-x-hidden place-items-center'>
   <div className='md:relative '>
                     {/* Top section */}
         <div className='md:grid md:gap-8 md:mt-14 container md:grid-cols-2 flex flex-col mb-20  md:mb-0 '>
                 {/* <!-- Left Side Text  --> */}
 
 
-            <div className="flex  my-auto justify-center ms-20 flex-col z-20 md:mb-0 mb-12">
+            <div className="flex  my-auto justify-center ms-20 flex-col z-20  mb-12 md:-mb-44">
                         <div className='h-72'></div>
                 <h1 className="font-bold text-4xl mb-10 ">Overveiw</h1>
-                <p className=" text-justify text-2xl font-semibold">
+                <p className=" text-justify text-2xl font-semibold mx-auto me-6">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
             </div>
@@ -47,15 +47,16 @@ console.log(showItems);
                     
                         ></div>
                         ))}
+                        
                 </div>
 
-                <div className='right-0 md:absolute -bottom-16 grid grid-cols-2  space-x-4 '>
+                <div className='right-0 md:absolute md:-bottom-16 md:-my-0 -my-20 grid grid-cols-2  space-x-4 mb-1'>
                 {
-                    showItems>=4 ?    <IoIosArrowDropleftCircle className='text-6xl ' onClick={()=>setShowItems(showItems-1)} /> : <div className=''> </div>
+                    showItems>=4 ?    <IoIosArrowDropleftCircle className='text-6xl cursor-pointer' onClick={()=>setShowItems(showItems-1)} /> : <div className=''> </div>
                     
                 }
                 {
-                    showItems<=7 ?   <IoIosArrowDroprightCircle  className='text-6xl' onClick={()=>setShowItems(showItems+1)}   /> : <div className=''></div>
+                    showItems<=7 ?   <IoIosArrowDroprightCircle  className='text-6xl cursor-pointer' onClick={()=>setShowItems(showItems+1)}   /> : <div className=''></div>
                     
                 }
 
@@ -69,7 +70,7 @@ console.log(showItems);
     </div>
 
 {/* svg */}
-<div className=''>
+<div className='md:-mt-0 -mt-40'>
   <svg className="md:absolute top-0 min-h-max" xmlns="http://www.w3.org/2000/svg" width="" height="" viewBox="0 0 1440 258" fill="none">
 <path className='overflow-hidden'  d="M-1 146.299V0H1440V146.299C786.74 348.6 207.142 230.591 -1 146.299Z" fill="#6BE6A8"/>
 </svg>
@@ -88,7 +89,7 @@ console.log(showItems);
 
             {/* Last  part  */}
 
-       <div className='grid md:grid-cols-2 gap-8  mx-auto container grid-cols-1 mt-10 '>
+       <div className='grid md:grid-cols-2 gap-8  mx-auto container grid-cols-1 mt-10 md:mt-40 '>
 
             {/* Box slider open */}
             <div className="flex gap-7 py-5 z-10">
@@ -124,7 +125,7 @@ console.log(showItems);
             <div className="flex  my-auto justify-center ms-20 flex-col z-20">
                 <div className='h-72'></div>
                 <h1 className="font-bold text-4xl mb-10">Overveiw</h1>
-                <p className=" text-justify text-2xl font-semibold">
+                <p className=" text-justify text-2xl font-semibold me-6">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
             </div>

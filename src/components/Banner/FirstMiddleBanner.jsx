@@ -24,21 +24,6 @@ const FirstMiddleBanner = () => {
         {
             boxs.map(box=>(
               <div className={`${box?.style1}`} key={box?.text}>
-
-              {box?.bg ? 
-
-                          <div className={`${box?.style2}`}>
-                          <span className={`${box?.textStyle} font-medium text-3xl`} >{box?.text}</span>
-                          <Image
-                          width={box?.width}
-                          height={box?.height}
-                          className={box?.imgStyle}
-                          src={box?.src}
-                          alt="Profile pic"
-
-                          />
-                          </div>
-            :
             <div className={`${box?.style2}`}>
                         <span className={`${box?.textStyle} font-medium text-3xl`} >{box?.text}</span>
                         <Image
@@ -49,7 +34,7 @@ const FirstMiddleBanner = () => {
                         alt="Profile pic"
                         />
                 </div>
-            }
+            
               </div>
             ))
         }
@@ -184,7 +169,7 @@ export default FirstMiddleBanner;
 const boxs=[
   {
     style1:"",
-    style2:"relative md:max-w-[274px] md:h-[285px]  max-w-[127px] h-[185px]   bg-gradient-to-r from-[#1A0EA47D] to-[#1300EED4] rounded-xl text-white flex items-center justify-center  ms-24 ",
+    style2:"relative md:max-w-[274px] md:h-[285px]  max-w-[127px] h-[185px]   bg-gradient-to-r from-[#1A0EA47D] to-[#1300EED4] rounded-xl text-white flex items-center justify-center  md:ms-0 xl:ms-24 ms-24 ",
     imgStyle:"absolute -bottom-4 -right-4 w-12 h-12 rounded-full border-4 border-white",
     text:"Photo 1",
     width:"18",
