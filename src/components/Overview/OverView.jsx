@@ -69,39 +69,29 @@ console.log(showItems);
 
     </div>
 
-{/* svg */}
-<div className='md:-mt-0 -mt-40'>
-  <svg className="md:absolute top-0 min-h-max" xmlns="http://www.w3.org/2000/svg" width="" height="" viewBox="0 0 1440 258" fill="none">
-<path className='overflow-hidden'  d="M-1 146.299V0H1440V146.299C786.74 348.6 207.142 230.591 -1 146.299Z" fill="#6BE6A8"/>
-</svg>
-  
+        {/* svg  background*/}
+        <div className='md:-mt-0 -mt-40'>
+        <svg className="md:absolute top-0 min-h-max" xmlns="http://www.w3.org/2000/svg" width="" height="" viewBox="0 0 1440 258" fill="none">
+        <path className='overflow-hidden'  d="M-1 146.299V0H1440V146.299C786.74 348.6 207.142 230.591 -1 146.299Z" fill="#6BE6A8"/>
+        </svg>
+        
 </div>
-
-{/* <div className=" overflow-hidden">
-  <svg className="absolute top-48 min-w-max" xmlns="http://www.w3.org/2000/svg" width="" height="" viewBox="0 0 1440 258" fill="none">
-    <path d="M-1 146.299V0H1440V146.299C786.74 348.6 207.142 230.591 -1 146.299Z" fill="#6BE6A8"/>
-  </svg>
-</div> */}
-
-         {/* svg */}
- 
-            {/* <div className='min-h-[800px] bg-green-300 rounded-bl-full '></div>   */}
 
             {/* Last  part  */}
 
        <div className='grid md:grid-cols-2 gap-8  mx-auto container grid-cols-1 mt-10 md:mt-40 '>
 
-            {/* Box slider open */}
+            {/* Box slider  */}
             <div className="flex gap-7 py-5 z-10">
 
             <div>
-            <div className={`w-[408px] h-[408px] rounded-3xl ${color} `}></div>
+            <div className={`md:w-[408px] md:h-[408px] w-[225px] h-[225px]  rounded-3xl ${color} `}></div>
 
 
             <div className="flex justify-between mt-7">
                 {
                     boxes.slice(4,7).map(box=>(
-                        <div onClick={()=>setColor(box.color)} key={box.id} className={` ${box.color==color ? "border-8 border-black " :""}  ${box.color} w-[120px] h-[120px] rounded-3xl cursor-pointer hover:border-8 hover:border-black `}></div>
+                        <div onClick={()=>setColor(box.color)} key={box.id} className={` ${box.color==color ? "border-8 border-black " :""}  ${box.color} md:w-[120px] md:h-[120px]  w-[60px] h-[60px] rounded-3xl cursor-pointer hover:border-8 hover:border-black `}></div>
                     ))
                 }
             
@@ -111,7 +101,7 @@ console.log(showItems);
             <div className="flex flex-col gap-6">
             {
                     boxes.slice(0,4).map(box=>(
-                        <div  onClick={()=>setColor(box.color)} key={box.id} className={` ${box.color==color ? "border-8 border-black " :""}   ${box.color} w-[120px] h-[120px] rounded-3xl cursor-pointer hover:border-8 hover:border-black`}></div>
+                        <div  onClick={()=>setColor(box.color)} key={box.id} className={` ${box.color==color ? "border-8 border-black " :""}   ${box.color} md:w-[120px] md:h-[120px]  w-[60px] h-[60px] rounded-3xl cursor-pointer hover:border-8 hover:border-black`}></div>
                     ))
                 }
 

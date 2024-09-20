@@ -6,7 +6,7 @@ import pic2 from '../../assets/p2.png'
 import pic3 from '../../assets/p3.png'
 import bg from '../../assets/bg1.jpg'
 
-const FirstMiddleBanner = () => {
+const Feature = () => {
   const [indexTop,setIndexTop]=useState({
     top:"z-20",
     bottom:"z-10 left-5",
@@ -16,11 +16,12 @@ const FirstMiddleBanner = () => {
     return (
         <div>
             
-  <div className="container mx-auto py-16 mt-32">
+  <div className="container mx-auto py-16 mt-32 ">
     {/* First part */}
-    <div className="grid md:grid-cols-2 grid-cols-1  gap-8">
+    <div className="grid md:grid-cols-2 grid-cols-1 ">
       {/*Left side Photo section */}
-      <div className="space-x-4 grid grid-cols-2  gap-3" >
+      <div className='me-2'>
+        <div className="space-x-4 grid grid-cols-2  gap-3" >
         {
             boxs.map(box=>(
               <div className={`${box?.style1}`} key={box?.text}>
@@ -39,8 +40,10 @@ const FirstMiddleBanner = () => {
             ))
         }
       </div>
+      </div>
+      
               {/* Right Side Text and Button */}
-        <div className="flex  my-auto mx-20 flex-col">
+        <div className="flex  my-auto mx-20 flex-col md:mt-0 mt-6">
                 <p className=" text-justify text-xl font-normal semibold">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore e.
                 </p>
@@ -139,7 +142,7 @@ const FirstMiddleBanner = () => {
                   />
                       <p className="ml-2">Simla bafet</p>
                 </div>
-                <div className="bottom-3 absolute border-2 border-gray-700 bg-opacity-60 bg-slate-400 rounded-md ps-3 py-2 pe-24 ms-4 mb-2" >
+                <div className="bottom-3 absolute border-2 border-gray-700 bg-opacity-60 bg-slate-400 rounded-md ps-3 py-2 pe-24 ms-4 mb-2 " >
                       <p className="text-lg font-semibold">Lawrance Stroll</p>
                       <p className="text-sm mt-2">Hegifueshho dhfsui foiehhsio</p>
                 </div>
@@ -163,13 +166,13 @@ const FirstMiddleBanner = () => {
     );
 };
 
-export default FirstMiddleBanner;
+export default Feature;
 
 
 const boxs=[
   {
     style1:"",
-    style2:"relative md:max-w-[274px] md:h-[285px]  max-w-[127px] h-[185px]   bg-gradient-to-r from-[#1A0EA47D] to-[#1300EED4] rounded-xl text-white flex items-center justify-center  md:ms-0 xl:ms-24 ms-24 ",
+    style2:"relative md:max-w-[274px] md:h-[285px]  max-w-[127px] h-[185px]   bg-gradient-to-r from-[#1A0EA47D] to-[#1300EED4] rounded-xl text-white flex items-center justify-center  md:ms-0 xl:ms-24 ms-20 ",
     imgStyle:"absolute -bottom-4 -right-4 w-12 h-12 rounded-full border-4 border-white",
     text:"Photo 1",
     width:"18",
