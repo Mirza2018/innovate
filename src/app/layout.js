@@ -15,7 +15,10 @@ const geistMono = localFont({
 
 export const metadata = {
   title: "Innovate internship task",
-  description: "Takibul hasan mirza is Write this code",
+  description: "Rakibul hasan mirza is Written this code",
+  icons: {
+    icon: "../assets/logo.png"
+  },
 };
 
 export default function RootLayout({ children }) {

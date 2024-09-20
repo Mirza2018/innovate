@@ -43,7 +43,7 @@ const Card = () => {
                           height='30'
                           className='rounded-2xl ring-2 ring-white'
                           alt='Profile Image'
-                          placeholder='blur'
+
                           />
                           </div>
 
@@ -54,7 +54,6 @@ const Card = () => {
                           height='30'
                           className='rounded-2xl ring-2 ring-white'
                           alt='Profile Image'
-                          placeholder='blur'
                           />
                           </div>
                           <div className="w-7 h-7 absolute top-0 left-14 z-[2]">
@@ -64,7 +63,6 @@ const Card = () => {
                           height='30'
                           className='rounded-2xl ring-2 ring-white'
                             alt='Profile Image'
-                            placeholder='blur'
                           />
                           </div>
                           <div className="w-7 h-7 absolute top-0  left-20 z-[1]">
@@ -74,7 +72,6 @@ const Card = () => {
                           height='30'
                           className='rounded-2xl ring-2 ring-white'
                             alt='Profile Image'
-                            placeholder='blur'
                           />
                           </div>
                         </div>
@@ -99,7 +96,7 @@ const Card = () => {
 
 export default Card;
 
-
+// cards style data
 
 const cards=[
 

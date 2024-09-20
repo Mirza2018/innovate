@@ -4,7 +4,7 @@ const TopBanner= () => {
     return (
         <div>
             {/*Top Background svg */}
-            <svg className=''  height="" viewBox="0 0 1440 260" fill="none"    xmlns="http://www.w3.org/2000/svg">
+            <svg className=''   viewBox="0 0 1440 260" fill="none"    xmlns="http://www.w3.org/2000/svg">
                 <path d="M-1 147.299V1H1440V147.299C786.74 349.6 207.142 231.591 -1 147.299Z"  fill="#363636" stroke="#191A23"/>
             </svg>
 

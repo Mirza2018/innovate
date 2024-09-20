@@ -91,7 +91,6 @@ const Feature = () => {
                   src={pic2}
                   className='rounded-full'
                   alt=''
-                  placeholder='blur'
 
                   />
                       <p className="ml-2">Wade Warren</p>
@@ -114,8 +113,6 @@ const Feature = () => {
                   src={pic1}
                   className='rounded-full'
                   alt=''
-                  placeholder='blur'
-
                   />
                     <p className="ml-2">Maria jonson</p>
                 </div>
@@ -137,7 +134,6 @@ const Feature = () => {
                   src={pic3}
                   className='rounded-full'
                   alt=''
-                  placeholder='blur'
 
                   />
                       <p className="ml-2">Simla bafet</p>
@@ -168,7 +164,7 @@ const Feature = () => {
 
 export default Feature;
 
-
+// Box Style data
 const boxs=[
   {
     style1:"",
