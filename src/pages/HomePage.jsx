@@ -1,6 +1,7 @@
 
 import FirstMiddleBanner from '@/components/Banner/FirstMiddleBanner';
 import TopBanner from '@/components/Banner/TopBanner';
+import OverView from '@/components/Overview/OverView';
 import React from 'react';
 
 const HomePage = () => {
@@ -8,6 +9,7 @@ const HomePage = () => {
         <div>
             <TopBanner/>
             <FirstMiddleBanner/>
+            <OverView/>
     
 
         </div>
