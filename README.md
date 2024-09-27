@@ -14,7 +14,7 @@
   - [Naber](#Naber)
   - [Top Banner Component](#Top-Banner-Component)
   - [Feature Component](#Feature-Component)
-  - [OverView Component](#OverView-Component)
+  - [Overview Component](#OverView-Component)
   - [Card Component](#Card-Component)
 - [Technologies Used](#technologies-used)
 - [Mobile Responsive Screenshots](#Mobile-Responsive-Screenshots)
@@ -35,37 +35,37 @@
 
 ## **Section Divided**
 - Navber
-- Top Banner section
-- Frature section
-- OverView section
+- Top Banner Section
+- Fracture section
+- Overview section
 - Card section
 
  ### **Naber**
-  Here i used javascript const, Map, Ternary operation, use state,import also Conditional Navber Menu Item.
+  Here I used javascript const, Map, Ternary operation, use state, import, and Conditional Navber Menu Item.
 
-   - #### Import : It's from ES6 vartion , import file form another page, it is update of require , In require we have to take everything from page but import it give us to take what we need. 
-   - #### map : It's from ES6 version , we used it for iterate an array.
+   - #### Import: It's from the ES6 version, import file from another page, it is an update of require, In require we have to take everything from the page but import gives us to take what we need. 
+   - #### map: It's from the ES6 version, we used it to iterate an array.
  
-   - #### const : It's also from ES6 version ,It is a  block scope
-   - #### Ternary operation: used to sure about condition.
-   - #### use state: It's used for track state .
+   - #### const: It's also from ES6 version, It is a  block scope
+   - #### Ternary operation: used to be sure about the condition.
+   - #### use state: It's used for track state.
  
 ![navbar](/src/assets/webpage/home-1.png) 
 
  
  ### **Top Banner Component**
-  Here i used javascript const, Map,import . In this section, I used svg as backgroung and map in boxes . boxes are animate when we hover it.
+  Here I used javascript const, Map, import. I used SVG as the background and map in boxes in this section. boxes are animate when we hover it.
 
 
  ### **Feature Component**
-  Here i used javascript const, Map, use state,import . In this section, I used map in items to add style. From Next js i used Image component to optimize image.
+  Here I used javascript const, Map, use state, and import. In this section, I used a map of items to add style. From Next js, I used the Image component to optimize the image.
    ![feature](/src/assets/webpage/home-2.png) 
 
  ### **OverView Component**
-  Here i used javascript const, Map, use state,import . In this section, I used map in items & boxes to give background color. and use onclick event to give dynamically background color.
+  Here I used javascript const, Map, use state, and import. I used a map of items & boxes in this section to give background color. and use the onclick event to give a dynamic background color.
 ![overview](/src/assets/webpage/home-3.png) 
  ### **Card Component**
-  Here i used javascript const, Map,import . In this section, I used map in cards to take all style dynamically , From Next js i used Image component to optimize image.
+  Here I used javascript const, Map, import. In this section, I used map in cards to take all styles dynamically, From Next js I used the Image component to optimize the image.
 ![card](/src/assets/webpage/home-4.png) 
  
  
