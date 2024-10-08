@@ -1,4 +1,4 @@
-# **Innovate International Ltd Internship Task**
+# **Innovate International Ltd**
 
 ![navbar](/src/assets/webpage/home-1.png) 
 ![Feature](/src/assets/webpage/home-2.png) 
