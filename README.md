@@ -5,7 +5,44 @@
 ![OverView](/src/assets/webpage/home-3.png) 
 ![card](/src/assets/webpage/home-4.png) 
 
+import React from 'react';
 
+const Filter = () => {
+    return (
+        <div className='bg-white flex justify-between items-center container mx-auto mt-5 p-2 '>
+            <div>
+                <h1>Filter</h1>
+            </div>
+            <div>
+                    <label className="block text-sm font-medium text-gray-700">
+                    Search
+                    </label>
+                    <input type="text"  className=" border p-2 rounded" />
+           </div>
+
+          <div className="">
+                    <fieldset className="block text-sm font-medium text-gray-700 py-2 ">
+                        <legend >Short by</legend>
+
+                        <input id="likes" className=" " type="radio" name="sort" defaultChecked  value="likes" />
+                        <label htmlFor="likes" className="peer-checked/draft:text-sky-500">Likes</label>
+                        <br />
+
+                        <input id="date" className="mt-2" type="radio" name="sort" value="date"  />
+                        <label htmlFor="date" className="peer-checked/published:text-sky-500">Creation Date</label>
+                        <br />
+
+                        <input id="label" className="mt-2" type="radio" name="sort" value="label"  />
+                        <label htmlFor="lable" className="peer-checked/published:text-sky-500">Label</label>
+                        
+
+                    </fieldset>
+          </div>
+        </div>
+    );
+};
+
+export default Filter;
 
 ## **Table of Contents**
 
